@@ -18,6 +18,24 @@ public class operators {
         result = result % 3; // the remainder of (4 % 3) = 1
         System.out.println("4 % 3 = " + result);
 
+        //result = result + 1;
+        result++; // 1 + 1 = 2
+        System.out.println(result);
         
+        result--; // 2 - 1 = 1
+        System.out.println(result);
+
+        result += 2; // 1 + 2 = 3
+        System.out.println(result);
+
+
+        result *= 10; // 3 * 10 = 30
+        System.out.println(result);
+        
+        result /= 3; // 30 / 3 = 10
+        System.out.println(result);
+
+        result -= 2; // 10 - 2 = 8
+        System.out.println(result);
     }
 }
