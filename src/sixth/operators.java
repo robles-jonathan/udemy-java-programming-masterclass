@@ -37,5 +37,11 @@ public class operators {
 
         result -= 2; // 10 - 2 = 8
         System.out.println(result);
+
+        boolean isAlien = false;
+        if(isAlien == false) {
+            System.out.println("It is not an alien!");
+        }
+
     }
 }
