@@ -50,11 +50,33 @@ public class operators {
         
         int secondScore = 60;
         if((topScore > secondScore) && (topScore < 100)) {
-            System.out.println("Greater than second top score and less than 100");
+            System.out.println("Greater than second top score and less than 100.");
         }
 
         if((topScore > 90) || (secondScore <= 90)) {
             System.out.println("Either or both of the conditions are true.");
         }
+
+        int newValue = 50; // = Assignment operator
+        if(newValue == 50){ // == Boolean operator
+            System.out.println("This is true.");
+        }
+
+        boolean isCar = false;
+        if(isCar){
+            System.out.println("This is not supposed to happen.");
+        }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        System.out.println(wasCar);
+        if(wasCar){
+            System.out.println("wasCar is true");
+        }
+        
+
+        int ageOfClient = 20;
+        boolean isEighteenOrOver = (ageOfClient == 20) ? true : false;
+        if(isEighteenOrOver){System.out.println("Old");}
     }
 }
