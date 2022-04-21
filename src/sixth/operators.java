@@ -18,20 +18,19 @@ public class operators {
         result = result % 3; // the remainder of (4 % 3) = 1
         System.out.println("4 % 3 = " + result);
 
-        //result = result + 1;
+        // result = result + 1;
         result++; // 1 + 1 = 2
         System.out.println(result);
-        
+
         result--; // 2 - 1 = 1
         System.out.println(result);
 
         result += 2; // 1 + 2 = 3
         System.out.println(result);
 
-
         result *= 10; // 3 * 10 = 30
         System.out.println(result);
-        
+
         result /= 3; // 30 / 3 = 10
         System.out.println(result);
 
@@ -39,10 +38,23 @@ public class operators {
         System.out.println(result);
 
         boolean isAlien = false;
-        if(isAlien == false) {
+        if (isAlien == false) {
             System.out.println("It is not an alien!");
             System.out.println("And I am scared of aliens!");
         }
 
+        int topScore = 80;
+        if (topScore < 100) {
+            System.out.println("You got the high score!");
+        }
+        
+        int secondScore = 60;
+        if((topScore > secondScore) && (topScore < 100)) {
+            System.out.println("Greater than second top score and less than 100");
+        }
+
+        if((topScore > 90) || (secondScore <= 90)) {
+            System.out.println("Either or both of the conditions are true.");
+        }
     }
 }
