@@ -1,4 +1,4 @@
-package seventh;
+package section2;
 
 public class keywordsAndExpressions {
     public static void main(String[] args) {

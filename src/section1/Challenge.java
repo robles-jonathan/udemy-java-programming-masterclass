@@ -1,4 +1,4 @@
-package third;
+package section1;
 
 public class Challenge {
     public static void main(String[] args) {

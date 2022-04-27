@@ -1,4 +1,4 @@
-package eighth;
+package section2;
 
 public class statementsWhitespacesIndentation {
     public static void main(String[] args) {

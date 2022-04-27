@@ -1,4 +1,4 @@
-package second;
+package section1;
 
 public class PrimitiveTypesChallenge {
     public static void main(String[] args) {

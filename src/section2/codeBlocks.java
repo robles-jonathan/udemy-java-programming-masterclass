@@ -1,4 +1,4 @@
-package ninth;
+package section2;
 
 public class codeBlocks {
     public static void main(String[] args) {
