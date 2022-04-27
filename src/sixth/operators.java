@@ -77,6 +77,29 @@ public class operators {
 
         int ageOfClient = 20;
         boolean isEighteenOrOver = (ageOfClient == 20) ? true : false;
-        if(isEighteenOrOver){System.out.println("Old");}
+        if(isEighteenOrOver){
+            System.out.println("Old");
+        }
+
+        double num1 = 20.00;
+        double num2 = 80.00;
+        double num3 = (num1 + num2) * 100.00;
+        System.out.println("My values Total: " + num3);
+        double remainder = num3 % 40.00;
+        System.out.println("Remainder: " + remainder);
+        boolean noremainder;
+        if(remainder == 0){
+            noremainder = true;
+        } else {
+            noremainder = false;
+        }
+        System.out.println("Is no remainder: " + noremainder);
+
+        if(noremainder == false){
+            System.out.println("Got some remainder.");
+        }
+        
+
+
     }
 }
