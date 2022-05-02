@@ -28,9 +28,19 @@ public class Main {
         // LeapYear.isLeapYear(2000);
 
         // System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(-3.1756, -3.1756));
-        System.out.println(EqualSumChecker.hasEqualSum(1, 1, 1));
-        System.out.println(EqualSumChecker.hasEqualSum(1, 1, 2));
-        System.out.println(EqualSumChecker.hasEqualSum(1, -1, 0));
+
+        // System.out.println(EqualSumChecker.hasEqualSum(1, 1, 1));
+        // System.out.println(EqualSumChecker.hasEqualSum(1, 1, 2));
+        // System.out.println(EqualSumChecker.hasEqualSum(1, -1, 0));
+
+        System.out.println(TeenNumberChecker.hasTeen(9, 99, 15));
+        System.out.println(TeenNumberChecker.hasTeen(23 , 15, 42));
+        System.out.println(TeenNumberChecker.hasTeen(22, 23, 34));
+
+        System.out.println(TeenNumberChecker.isTeen(9));
+        System.out.println(TeenNumberChecker.isTeen(13));
+        System.out.println(TeenNumberChecker.isTeen(15));
+
 
     }
 }
