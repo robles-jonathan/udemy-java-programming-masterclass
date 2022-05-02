@@ -27,6 +27,10 @@ public class Main {
         // LeapYear.isLeapYear(2017);
         // LeapYear.isLeapYear(2000);
 
-        System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(-3.1756, -3.1756));
+        // System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(-3.1756, -3.1756));
+        System.out.println(EqualSumChecker.hasEqualSum(1, 1, 1));
+        System.out.println(EqualSumChecker.hasEqualSum(1, 1, 2));
+        System.out.println(EqualSumChecker.hasEqualSum(1, -1, 0));
+
     }
 }
